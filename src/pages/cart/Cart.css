@@ -1,0 +1,164 @@
+
+.cart .checkout-header{
+    
+    background-image: url(	https:bookland.dexignzone.com/react/demo/static/media/bg3.8f81bf23084cbcda3d28.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    padding: 20px 0;
+}
+.cart .overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(26, 22,104, 0.9);  
+}
+.cart .checkout-header-title{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.cart-item {margin-bottom: 10px;}
+.cart .checkout-header .checkoutHeader-links{
+position: absolute;
+bottom: -27px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #eaa451;
+border-radius: 5px;
+padding: 5px 10px 1px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.cart .checkout-header-title{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+}
+.cart .checkout-header h2{
+color: #fff;
+font-size: 3.5rem;
+line-height: 1.2;
+margin-bottom: 10px;
+text-transform: capitalize;
+font-size: 3rem;
+font-size: 2.625rem;
+font-family: Poppins,sans-serif;
+font-weight: 600;
+text-align: center;
+}
+.cart .cart-items{
+    margin: 20px 0;
+    color: #1a1668;
+}
+.cart .table-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1668;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.cart-items .cart-item-quantity button {
+       padding: 5px;
+    min-width: 48px;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 0;
+    background-color: #eee;
+    position: relative;
+    color: #333;
+    margin: 0 3px;
+    border: 1px solid transparent;
+
+}
+.cart .trash
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: #FF1E6F;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+/* .cart-flex{
+    display: flex;
+} */
+/* shipping */
+.shipping{
+    margin-top: 3rem;
+}
+.shipping h4{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1668;
+    line-height: 1.4;
+}
+.shipping input,
+.shipping select{
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #1a1668;
+    transition: all 0.3s ease-in-out;
+    background: #f5f5f5;
+
+}
+.shipping button{
+    font-size: 14px;
+    padding: 12.5px 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    z-index: 1;
+    text-align: center;
+    background-color: #eaa451;
+    border: none;
+}
+.cart-order-summary .order-summary-item{
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.cart-order-summary:last-child{border-bottom: none;}
+.cart-order-summary a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Media */
+@media(max-width:650px){
+    .cart .table-head{display:none;}
+    .cart-wrapper ul{display: none;}
+    .cart-item{
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .cart-item-img img{
+        width: 100%;
+    }
+    .cart .trash{
+        margin: auto;
+    }
+}

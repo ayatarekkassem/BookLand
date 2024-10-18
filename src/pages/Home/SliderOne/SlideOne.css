@@ -1,0 +1,49 @@
+.slider-one{
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+.slider-one h2{
+    font-weight: 600;
+    font-size: 2.625rem;
+    color: #1a1668;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.slider-one~p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 753px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.slider-one img{
+    max-width: 100%;
+    border-radius: 6px;
+}
+.slider-one h4{
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #1a1668;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.slider-one h6{
+    color: #eaa451;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.slider-one button{
+    border-color: #1a1668;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 12.5px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all .2s;
+}

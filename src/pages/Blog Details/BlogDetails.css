@@ -1,0 +1,229 @@
+.blogdetails-items{
+    margin-top: 60px;
+}
+.blogdetails-items img{
+    width: 100%;
+}
+.blogdetails-items svg{
+ color: #e58c23;
+ font-size: 14px;
+}
+.blogdetails-items ul{display: flex;}
+.blogdetails-items ul li{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.blogdetails-items h4{
+    margin-bottom: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    word-break: break-word;
+    font-size: 1.5rem;
+    color: #1a1668;
+    font-weight: 600;
+}
+.blogdetails-items p{
+    margin-bottom: 1.65em;
+    color: #777;
+}
+.blogdetails-items .block{
+    border-left: 4px solid #e58c23;
+    padding-left: 37px;
+}
+.blogdetails-items .block::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1a1668;
+    width: 3px;
+    height: 100%;
+
+}
+.blogdetails-items blockquote{
+    color: #1a1668;
+    font-size: .938rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    position: relative;
+    font-size: 20px;
+   
+}
+.blogdetails-items .block::after{
+    width: 2px;
+    height: 10px;
+    background-color: #1a1668;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.blogdetails-items  h6{
+    color: #eaa451;
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+/* blogDetails-item-two */
+.blogDetails-item-two{
+    overflow: hidden;
+}
+.blogDetails-item-two img{
+    width: 100%;
+}
+.blogDetails-item-two imd~p{
+    font-size: 20px;
+    line-height: 1.7;
+
+}
+.blogDetails-item-two .tags{
+    margin: 20px 0;
+}
+.blogDetails-item-two .tags a{
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 8px;
+    text-decoration: none;
+    color: #777;
+    transition: all 0.3s;
+}
+.blogDetails-item-two .tags a:hover{
+    color: #eaa451;
+}
+/* related-blogs" */
+.related-blogs{padding: 20px 0;}
+.related-blogs h4{
+        margin-bottom: 30px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-size: 19px;
+        color: #1a1668;
+        margin-top: 10px;
+}
+.related-blogs h4 a{
+    text-decoration: none;
+    color: #1a1668;
+    font-weight: 500;
+}
+.related-blogs img{
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.related-blogs p{
+    color: #777
+}
+.related-blogs svg{
+    color: #e58c23;
+    font-size: 14px;
+}
+/* Form */
+form{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 6px;
+    padding: 30px;
+}
+form input,
+form textarea
+{
+    border: 1px solid #b7b7b7;
+    border-radius: 4px!important;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: transparent
+    
+}
+form button{
+    border-color: #eaa451;
+    background-color: #eaa451;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 12.5px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all .2s;
+    margin-top: 10px;
+}
+/* right */
+.right h4{
+    border-left: 4px solid #e58c23;
+    padding-left: 5px;
+}
+.right form{
+    background: transparent;
+    border: none;
+    position: relative;
+}
+.right input{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ced4da;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.right form svg{
+    position: absolute;
+    top: 30%;
+    right: 30px;
+    background-color: orange;
+    color: #fff;
+    z-index: 9999;
+    width: 35px;
+    height: 43px;
+    font-size: 11px;
+    padding: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.right .category ul,
+.right .archives ul
+{
+    display: flex;
+    flex-direction: column;
+}
+.right .category li,
+.right .archives li
+{
+    color: #777;
+    margin-bottom: 7px;
+}
+.right .category ul li svg,
+.right .archives ul li svg
+{
+    color: #e58c23;
+    margin-right: 5px;
+}
+.right .archives a{
+    text-decoration: none;
+    color: #e58c23;
+}
+.archives span{
+    border: 1px solid #777;
+    padding: 10px;
+}
+
+.right form svg {
+    position: absolute;
+    top: 27%;
+}
+.right input{border-radius:10px}
+.right form svg {
+    position: absolute;
+    top: 27%;}
+
+    @media(max-width:800px){
+        .blogdetails-items ul {display: none}
+        }

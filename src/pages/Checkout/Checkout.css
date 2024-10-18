@@ -1,0 +1,208 @@
+
+.checkout .checkout-header{
+    
+        background-image: url(	https:bookland.dexignzone.com/react/demo/static/media/bg3.8f81bf23084cbcda3d28.jpg);
+        background-position: 50%;
+        background-size: cover;
+        height: 450px;
+        position: relative;
+        width: 100%;
+        z-index: 2;
+        padding: 20px 0;
+}
+.checkout .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 22,104, 0.9);  
+}
+.checkout .checkout-header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.checkout-header .checkoutHeader-links{
+    position: absolute;
+    bottom: -27px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #eaa451;
+    border-radius: 5px;
+    padding: 5px 10px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heckout-header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.checkout .checkout-header h2{
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-size: 2.625rem;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+/* Address */
+.address{
+    padding-bottom: 70px;
+    padding-top: 70px;
+    border-bottom: 1px solid #d3d3d3;
+}
+ h3{
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #1a1668;
+    font-weight: 600;
+    line-height: 1.4;
+}
+ /* h3::after{
+    content: "";
+    background-color: #eaa451;
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+} */
+form{
+    border: none;
+}
+.form-select {
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,.125);
+    color: #1a1668;
+    font-size: 15px;
+    font-weight: 400;
+    height: 48px;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+    margin-bottom: 10px;
+}
+input{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    color: #777;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: .375rem .75rem;
+    transition: .15s ease-in-out;
+    width: 100%;
+    margin-bottom: 10px!important;
+}
+input:focus{
+    border-color: #eaa451;
+}
+ button{
+    background-color: #eaa451;
+    border-color: #eaa451;
+    color:#fff;
+    align-items: center;
+    border-radius: 6px;
+    display: inline-flex;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 12.5px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 1;
+    outline:none;
+}
+ p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #777;
+}
+textarea{
+    background: #f5f5f5;
+    color: #777;
+    box-shadow: 0 0 0 0 rgba(234, 264, 81, .25);
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 6px;
+    border-radius: var(--border-radius-base);
+    color: #1a1668;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+h3{
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #1a1668;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/* CheckoutOrder */
+.CheckoutOrder{
+    padding-top: 10px;
+}
+.cart-items{
+
+    color: #1a1668;
+    font-weight: 500;
+    padding: 15px;
+
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-item img{
+    border-radius: 6px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.CheckoutOrder .table-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1668;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.cart-order-summary{
+    color: #1a1668;
+}
+.order-summary-item{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.CheckoutOrder textarea{
+    padding: 4px;
+}
+.CheckoutOrder h3{
+    color: #1a1668
+}

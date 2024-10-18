@@ -1,0 +1,94 @@
+.plans{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.plan-item{
+    padding: 35px 60px;
+    z-index: 1;
+    border-radius: 6px;
+    box-shadow: 1px 0 50px rgba(0,0,0,.1);
+    margin-top: 25px;
+    transition: all .8s;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.plan-item h3{
+    color: #1a1668;
+    transition: all 0.3s;
+}
+.plan-item:hover h3{color: #fff;}
+.plan-item h2{
+    color: #eaa451;
+    font-size: 50px;
+    margin: 0 0 20px;
+    transition: all 0.3s;
+
+}
+.plan-item:hover h2{color: #fff;}
+.plan-item h2 small{
+    color: #1f2471;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.plan-item:hover small{color: #fff;}
+.plan-item p{
+    margin-bottom: 25px;
+}
+.plan-item ul{
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding: 15px 0;
+}
+.plan-item ul li{
+    font-size: 18px;
+    padding: 8px 0 8px 40px;
+}
+.plan-item ul li svg{
+    color: #eaa451;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+.plan-item:hover svg{color: #fff;}
+.plan-item .plan-item-button{
+    text-align: center;
+}
+.plan-item button{
+    background-color: #eaa451;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 6px 26px;
+    transition: all 0.3s;
+}
+.plan-item:hover button{
+    background-color: #fff;
+    color: #eaa451;
+}
+.plan-item:hover{
+    background-color: #eaa451;
+    color: #fff;
+    margin-top: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+
+/* media */
+@media(max-width:568px){
+    .customer-items{
+        text-align: center;
+    }
+}
+@media(max-width:780px){
+    .plan-item h2,
+    .plan-item h3
+    {  font-size:20px
+    }
+    .plan-item ul li{
+    font-size:14px}
+    .plan-item ul li svg{
+    display:none;
+    }
+    .plan-item button {
+        width:170px
+    }
+}

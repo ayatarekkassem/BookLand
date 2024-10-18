@@ -1,0 +1,49 @@
+.fixed-icons{
+    position: fixed;
+    top: 50%;
+    color: #fff;
+    z-index: 9999999;
+}
+.fixed-icons li{
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.fixed-icons .support{
+    background-color: #1ebbf0;
+
+
+}
+.fixed-icons .buy{
+    background-color: #1fdf61;
+}
+
+.fixed-icons svg{
+    color: #fff;
+    border-radius: 50%;
+    
+}
+.fixed-icons .hide{
+    display: none;
+    visibility: hidden;
+}
+.fixed-icons li:hover .hide,
+.fixed-icons Link:hover .hide
+{
+    display: inline-block;
+    visibility: visible;
+}
+.fixed-cart{
+    background-color: #1fdf61;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.fixed-icons .cart-notification {
+    position: absolute;
+    top: -17px;
+    right: -26px;
+}
+

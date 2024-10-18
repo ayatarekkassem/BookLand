@@ -1,0 +1,26 @@
+.brand{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.brand img{
+    cursor: pointer;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    height: 40px;
+    max-width: 130px;
+    opacity: .6;
+    transition: all 1s;
+}
+.brand img:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.feature-slider-item-img{
+    width: 370px;
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

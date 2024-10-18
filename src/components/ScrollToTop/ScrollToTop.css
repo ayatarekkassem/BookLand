@@ -1,0 +1,15 @@
+
+
+.scrollToTop{
+    position: fixed;
+    padding: 1rem 1rem;
+    font-size: 20px;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(26, 22, 104);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+}
+  
